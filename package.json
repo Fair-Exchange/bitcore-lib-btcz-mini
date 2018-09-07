@@ -1,85 +1,14 @@
 {
-  "description": "A pure and powerful JavaScript Bitcoin library.",
-  "author": {
-    "name": "Thw BitcoinZ Community",
-    "email": "admin@bitcoinz.ph"
+  "name": "bitcore-lib-btcz-mini",
+  "version": "1.0.0",
+  "description": "Mini BitcoinZ JS library.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternitytula/bitcore-lib-btcz-mini.git"
   },
-  "browser": {
-    "request": "browser-request"
-  },
-  "bugs": {
-    "url": "https://github.com/bitcoinz-wallets/bitcore-lib-btcz/issues"
-  },
-  "contributors": [
-    {
-      "name": "Daniel Cousens",
-      "email": "bitcoin@dcousens.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Gordon Hall",
-      "email": "gordon@bitpay.com"
-    },
-    {
-      "name": "Jeff Garzik",
-      "email": "jgarzik@bitpay.com"
-    },
-    {
-      "name": "Kyle Drake",
-      "email": "kyle@kyledrake.net"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryanxcharles@gmail.com"
-    },
-    {
-      "name": "Stefan Thomas",
-      "email": "moon@justmoon.net"
-    },
-    {
-      "name": "Stephen Pair",
-      "email": "stephen@bitpay.com"
-    },
-    {
-      "name": "Wei Lu",
-      "email": "luwei.here@gmail.com"
-    }
-  ],
-  "dependencies": {
-    "bn.js": "=4.11.8",
-    "bs58": "=4.0.1",
-    "buffer-compare": "=1.1.1",
-    "elliptic": "=6.4.0",
-    "inherits": "=2.0.1",
-    "lodash": "=4.17.4"
-  },
-  "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#d4e8b2b2f1e2c065c3a807dcb6a6250f61d67ab3",
-    "brfs": "^1.2.0",
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "sinon": "^1.13.0"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "21cb2359fe7b997a3b7b773eb7d7275ae37d644e",
-    "tarball": "https://registry.npmjs.org/bitcore-lib/-/bitcore-lib-0.14.0.tgz"
-  },
-  "gitHead": "2b5b486ee9626eeb0a57c1ef3603d3d42bf46b2f",
-  "homepage": "https://github.com/bitpay/bitcore-lib#readme",
   "keywords": [
-    "bitcoin",
+    "bitcoinz",
     "transaction",
     "address",
     "p2p",
@@ -96,40 +25,17 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "braydonf",
-      "email": "courier@braydon.com"
-    },
-    {
-      "name": "gabegattis",
-      "email": "gabegattis@gmail.com"
-    },
-    {
-      "name": "gasteve",
-      "email": "stephen@pairhome.net"
-    },
-    {
-      "name": "kleetus",
-      "email": "laconia@gmail.com"
-    },
-    {
-      "name": "patrickbitpay",
-      "email": "patrick@bitpay.com"
-    }
-  ],
-  "name": "bitcore-lib-btcz",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git"
+  "bugs": {
+    "url": "https://github.com/eternitytula/bitcore-lib-btcz-mini/issues"
   },
-  "scripts": {
-    "build": "gulp",
-    "coverage": "gulp coverage",
-    "lint": "gulp lint",
-    "test": "mocha"
-  },
-  "version": "1.0.2"
+  "homepage": "https://github.com/eternitytula/bitcore-lib-btcz-mini#readme"
+  "dependencies": {
+    "bitcore-lib": "^0.15.0",
+    "bn.js": "=4.11.8",
+    "bs58": "=4.0.1",
+    "buffer-compare": "=1.1.1",
+    "elliptic": "=6.4.0",
+    "inherits": "=2.0.1",
+    "lodash": "=4.17.4"
+  }
 }
