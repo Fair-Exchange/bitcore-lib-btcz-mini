@@ -7,6 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/eternitytula/bitcore-lib-btcz-mini.git"
   },
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "bitcore-build": "git+https://github.com/bitpay/bitcore-build.git#d4e8b2b2f1e2c065c3a807dcb6a6250f61d67ab3",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
   "keywords": [
     "bitcoinz",
     "transaction",
